@@ -94,6 +94,7 @@ fi
 echo "[5/9] Go protobuf 플러그인 설치..."
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+go install mvdan.cc/gofumpt@latest
 
 # --------------------------------------------------
 # 6. Git LFS 초기화
